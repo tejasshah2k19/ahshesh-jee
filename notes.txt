@@ -1,0 +1,65 @@
+client  ::   server 
+
+
+signup=> input -> submit -> request -> data 
+
+server => accept -> read data from request -> process -> response 
+
+how we send request to the sever ?
+	we can use action attribute form tag
+	<form action="SignupServlet">
+			<input type="submit" value="Signup"/> 
+	</form>  
+who is gonna handle that request? resource? 
+
+
+servlet-api.jar 
+
+1) extends HttpServlet
+2) service() : override 
+3) @WebServlet("/") 
+
+
+
+
+HTML -> java 
+	HTML -> dynamic 
+	
+jsp -> html + java 
+	
+	java servlet page / java server page 
+	
+	jsp -> html 
+	
+	
+	
+	jsp -> java 
+		1) scriptlet   <% %> 
+				any java code 
+		2) expression  <%=  %>
+				print java stuff 
+		3) declaration <%!  %>  
+			    make variable instance 
+	
+	
+	implicit object we have in jsp -> 
+			request
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
